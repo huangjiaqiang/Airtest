@@ -17,8 +17,8 @@ class Javacap(Yosemite, BaseCap):
     This is another screencap class, it is slower in performance than minicap, but it provides the better compatibility
     """
 
-    APP_PKG = "com.netease.nie.yosemite"
-    SCREENCAP_SERVICE = "com.netease.nie.yosemite.Capture"
+    APP_PKG = "com.ches.nie.ventura"
+    SCREENCAP_SERVICE = "com.ches.nie.ventura.Capture"
     RECVTIMEOUT = None
 
     def __init__(self, adb, *args, **kwargs):

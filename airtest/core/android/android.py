@@ -465,7 +465,7 @@ class Android(Device):
         if self.adb.is_locked():
             self.home()
             self.yosemite_recorder.install_or_upgrade()  # 暂时Yosemite只用了ime
-            self.adb.shell(['am', 'start', '-a', 'com.netease.nie.yosemite.ACTION_IDENTIFY'])
+            self.adb.shell(['am', 'start', '-a', 'com.ches.nie.ventura.ACTION_IDENTIFY'])
             time.sleep(0.5)
             self.home()
 
